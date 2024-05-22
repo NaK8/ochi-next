@@ -9,16 +9,16 @@ function Footer() {
     >
       <div className="grid grid-cols-1 px-8 md:grid-cols-2 md:px-20">
         <div>
-          <h1 className="font-founder text-[12vw] font-semibold uppercase leading-[.75] md:text-[10vw]">
+          <h1 className="font-founder text-[12vw] font-semibold uppercase leading-[.75] md:text-[9vw]">
             Eye-
           </h1>
-          <h1 className="font-founder text-[12vw] font-semibold uppercase leading-[.75] md:text-[10vw]">
+          <h1 className="font-founder text-[12vw] font-semibold uppercase leading-[.75] md:text-[9vw]">
             Opening
           </h1>
         </div>
         {/* Right part */}
         <div>
-          <h1 className="font-founder text-[12vw] font-semibold uppercase leading-[.75] md:text-[10vw]">
+          <h1 className="font-founder text-[12vw] font-semibold uppercase leading-[.75] md:text-[9vw]">
             Presentations
           </h1>
           <div className="flex flex-col justify-start md:flex-row">

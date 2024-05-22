@@ -11,7 +11,12 @@ function Header() {
       <ul className="hidden gap-x-8 md:flex">
         {NavLinks.map((navLink, index) => (
           <li className={`${index === 4 ? "ml-32" : ""} font-neue`} key={index}>
-            <a href="#">{navLink}</a>
+            <a href="#" className="link link--custom">
+              <span className="link__inner">
+                <span className="link__default-text">{navLink}</span>
+                <span className="link__hover-text">{navLink}</span>
+              </span>
+            </a>
           </li>
         ))}
       </ul>

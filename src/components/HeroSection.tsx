@@ -16,7 +16,7 @@ function HeroSection() {
             {index === 1 && <HeadAnim />}
             <h1
               key={index}
-              className="font-founder text-[13vw] uppercase leading-[.75] md:text-[10vw]"
+              className="font-founder text-[16vw] uppercase leading-[.75] md:text-[10vw]"
             >
               {heading}
             </h1>
