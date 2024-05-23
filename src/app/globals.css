@@ -170,12 +170,26 @@ header:has(.menu--opened) {
 }
 
 .about-start {
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 .about-start:hover .about-btn {
+  transition: all 0.7s ease;
   color: #fff;
   background-color: #212121;
   cursor: pointer;
+}
+
+.about-btn-icon {
+  transform: scale(0);
+}
+.about-start:hover .about-btn-icon {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-duration: 0.7s;
+  transform-origin: center;
+  transform: scale(1);
+  background-color: #212121;
+  color: #fff;
 }
 
 .btn {
@@ -411,5 +425,8 @@ header:has(.menu--opened) {
     width: 2.5rem;
     padding-right: 5px;
     margin-right: -1.4rem;
+  }
+  .about-btn-icon {
+    display: none;
   }
 }

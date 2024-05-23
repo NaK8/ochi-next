@@ -97,7 +97,15 @@ function Footer() {
             Legal Terms
           </span>
         </div>
-        <div className="text-left md:text-right">Clone by @NAK</div>
+        <div className="text-left md:text-right">
+          Clone by{" "}
+          <a
+            href="https://www.linkedin.com/in/nabeelk100/"
+            className="link-underline link-underline-black"
+          >
+            @NAK
+          </a>
+        </div>
       </div>
     </footer>
   );

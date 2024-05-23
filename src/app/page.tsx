@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import Marquee from "@/components/Marquee";
+import Reviews from "@/components/Reviews";
 import StartProject from "@/components/StartProject";
 import { useEffect } from "react";
 
@@ -33,6 +34,7 @@ export default function Home() {
       <About />
       <Eyes />
       <Featured />
+      <Reviews />
       <Cards />
       <StartProject />
       <Footer />

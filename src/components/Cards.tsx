@@ -4,7 +4,7 @@ function Cards() {
   return (
     <section
       data-scroll
-      className="flex h-fit w-full flex-col items-center gap-y-5 bg-zinc-100 p-8 md:h-screen md:flex-row md:gap-5 md:px-20 md:py-0"
+      className="flex h-fit w-full flex-col items-center gap-y-5 p-8 md:h-screen md:flex-row md:gap-5 md:px-20 md:py-0"
     >
       <div className="h-[300px] w-full md:h-[350px] md:w-1/2">
         <div className="relative flex size-full items-center justify-center rounded-xl bg-[#004d43]">
@@ -47,6 +47,7 @@ function Cards() {
       <div className="flex size-full flex-col gap-5 pb-5 md:h-[350px] md:w-1/2 md:flex-row md:pb-0">
         <div className="relative flex h-[300px] w-full items-center justify-center rounded-xl bg-[#212121] md:h-full md:w-1/2">
           <Image
+            className="size-auto"
             src={"/card-logo2.svg"}
             alt=""
             height={150}

@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Ochi Clone",
-  description: "Clone of ochi",
+  description: "Ochi Clone By @NAK",
 };
 
 export default function RootLayout({
