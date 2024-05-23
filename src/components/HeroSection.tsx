@@ -40,7 +40,7 @@ function HeroSection() {
             >
               Start The Project
             </a>
-            <div className="about-btn hidden size-8 items-center justify-center rounded-full border border-zinc-800 transition-all delay-100 md:flex">
+            <div className="about-btn hidden size-7 items-center justify-center rounded-full border border-zinc-800 transition-all delay-100 md:flex">
               <ArrowUpRight strokeWidth={1} size={18} />
             </div>
           </div>
