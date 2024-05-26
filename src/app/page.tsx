@@ -20,6 +20,7 @@ export default function Home() {
       const locomotiveScroll = new LocomotiveScroll({
         smooth: true,
       });
+      return locomotiveScroll;
     })();
   }, []);
   return (
