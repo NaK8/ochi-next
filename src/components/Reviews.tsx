@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import Accordion from "./Accordion";
 import { ReviewsData } from "./reviews/data";

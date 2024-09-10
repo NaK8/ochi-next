@@ -6,7 +6,7 @@ const NavLinks = ["Services", "Our Work", "About Us", "Insight", "Contact Us"];
 
 function Header() {
   return (
-    <header className=" fixed z-[999] flex w-full items-center justify-between bg-transparent px-8 py-5 backdrop-blur md:px-12">
+    <header className="fixed z-[999] flex w-full items-center justify-between bg-transparent px-8 py-5 backdrop-blur md:px-12">
       <Logo />
       <ul className="hidden gap-x-8 md:flex">
         {NavLinks.map((navLink, index) => (

@@ -387,7 +387,7 @@ header:has(.menu--opened) {
 .link {
   position: relative;
   cursor: pointer;
-  display: inline;
+  display: inline-block;
 }
 .link:after {
   content: "";
