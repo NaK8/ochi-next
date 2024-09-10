@@ -4,7 +4,8 @@ import Accordion from "./Accordion";
 import { ReviewsData } from "./reviews/data";
 
 function Reviews() {
-  const [expanded, setExpanded] = useState<false | number>(0);
+  const firstReviewId = ReviewsData[0].id;
+  const [expanded, setExpanded] = useState<false | number>(firstReviewId);
   const lastId = ReviewsData.at(-1)?.id;
   return (
     <section className="w-full">

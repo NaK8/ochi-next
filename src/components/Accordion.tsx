@@ -34,8 +34,7 @@ const Accordion = ({
       <div className="mx-8 md:mx-12">
         <motion.header
           initial={false}
-          className="grid w-full cursor-pointer grid-cols-12 gap-x-0 md:gap-x-10"
-          onClick={() => setExpanded(isOpen ? false : i)}
+          className="grid w-full grid-cols-12 gap-x-0 md:gap-x-10"
         >
           <div className="col-span-6 lg:col-span-3">
             <span className="link-underline link-underline-black">
@@ -51,12 +50,13 @@ const Accordion = ({
             <span>Services</span>
           </motion.div>
           <div className="col-span-6 hidden md:block lg:col-span-3">
-            <span className="link-underline link-underline-black">
-              {person}
-            </span>
+            <span>{person}</span>
           </div>
           <div className="col-span-6 text-right lg:col-span-3">
-            <button className="link-underline link-underline-black ">
+            <button
+              className={`${expanded === i ? "opacity-30" : "link-underline link-underline-black"} cursor-pointer`}
+              onClick={() => setExpanded(isOpen ? false : i)}
+            >
               READ
             </button>
           </div>
