@@ -82,11 +82,11 @@ const Accordion = ({
                 <div></div>
                 <div className="md:pl-2 md:pt-8">
                   <h3 className="md:hidden">Services:</h3>
-                  <div className="flex gap-x-2 md:block md:gap-x-0">
+                  <div className="flex flex-wrap gap-x-2 md:block md:gap-x-0">
                     {services.map((service, index) => (
                       <div
                         key={index}
-                        className="about-start my-3 flex gap-x-1"
+                        className="about-start my-3 flex gap-x-1 text-sm"
                       >
                         <button className="about-btn rounded-full border border-zinc-800 px-2 py-[2px]">
                           {service}
