@@ -54,7 +54,7 @@ const Accordion = ({
           </div>
           <div className="col-span-6 text-right lg:col-span-3">
             <button
-              className={`${expanded === i ? "opacity-30" : "link-underline link-underline-black"} cursor-pointer`}
+              className={`${isOpen ? "opacity-30" : "link-underline link-underline-black"} cursor-pointer`}
               onClick={() => setExpanded(isOpen ? false : i)}
             >
               READ

@@ -403,7 +403,7 @@ header:has(.menu--opened) {
   pointer-events: none;
   transition-property: transform;
   transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  transition-duration: 0.5s;
+  transition-duration: 0.8s;
   top: 25px;
 }
 .link:hover:after {
